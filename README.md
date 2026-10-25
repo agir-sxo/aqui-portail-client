@@ -35,7 +35,7 @@ Développée par **AGIR-SXO** pour Aqui Ingénierie (bureau d'études, maîtrise
 
 Conçue selon le référentiel **OWASP ASVS niveau 2** :
 - cloisonnement strict : un client ne voit que ses propres projets et documents ;
-- politique de mots de passe robuste, blocage temporaire après échecs répétés, messages d'erreur génériques ;
+- politique de mots de passe robuste (dont refus des mots de passe présents dans les fuites connues, sans jamais transmettre le mot de passe), blocage temporaire après échecs répétés, messages d'erreur génériques ;
 - protection anti-robot hCaptcha (optionnelle), compatible avec une adresse de connexion personnalisée ;
 - compatibilité avec la double authentification de Security Optimizer ;
 - déconnexion automatique après inactivité ;
